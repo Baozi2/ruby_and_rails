@@ -1,3 +1,6 @@
+
+### 使用pbkdf2 存储密码
+
 ```
 class Admin < ActiveRecord::Base
   ##the table admins in db must has filed username and digest
@@ -47,3 +50,5 @@ class Admin < ActiveRecord::Base
   end
 end
 ```
+
+
